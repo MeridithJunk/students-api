@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const students = require('./student.routes');
+const students = require('./student.route');
 
 
  router.use('/students', students);
